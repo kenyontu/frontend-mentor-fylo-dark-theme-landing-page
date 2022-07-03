@@ -20,7 +20,7 @@ export function Footer() {
               src="./images/icon-location.svg"
               alt="Address"
             />
-            <p aria-describedby="address-icon">
+            <p aria-describedby="icon-address">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
@@ -33,13 +33,13 @@ export function Footer() {
               src="./images/icon-phone.svg"
               alt="Contact phone"
             />
-            <p aria-describedby="phone-icon">+1-543-123-4567</p>
+            <p aria-describedby="icon-phone">+1-543-123-4567</p>
             <img
               id="icon-email"
               src="./images/icon-email.svg"
               alt="Contact e-mail"
             />
-            <p aria-describedby="email-icon">example@fylo.com</p>
+            <p aria-describedby="icon-email">example@fylo.com</p>
           </div>
 
           {/* Links 1 */}
