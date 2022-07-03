@@ -30,8 +30,8 @@ Click to open the full-size screenshot.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-with-remix-RJP8IuVJ6s](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-with-remix-RJP8IuVJ6s)
+- Live Site URL: [https://kt-fylo-dark-theme-landing-page.netlify.app/](https://kt-fylo-dark-theme-landing-page.netlify.app/)
 
 ## My process
 
