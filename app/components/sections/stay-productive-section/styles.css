@@ -64,6 +64,7 @@
 
   .stay-productive-section__content {
     margin-top: 0;
+    max-width: 50%;
   }
 }
 
