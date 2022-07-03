@@ -9,7 +9,7 @@ export function Header() {
     <header className="header">
       <div className="header__content content-container">
         <a className="header__logo focus-outline" href="#">
-          <img src="./images/logo.svg" alt="" />
+          <img src="./images/logo.svg" alt="Home" />
         </a>
         <nav className="header__nav" aria-label="Header navigation">
           <ul>
