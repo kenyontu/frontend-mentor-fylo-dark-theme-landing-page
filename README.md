@@ -22,6 +22,8 @@ Users should be able to:
 
 ### Screenshots
 
+Click to open the full-size screenshot.
+
 | Mobile layout                                                                       | Desktop layout                                                                        |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | <a href="./screenshots/mobile.png"><img src="./screenshots/mobile-thumb.png" /></a> | <a href="./screenshots/desktop.png"><img src="./screenshots/desktop-thumb.png" /></a> |
