@@ -17,6 +17,7 @@
 
 .hero__background img,
 .hero__background source {
+  height: auto;
   width: 100%;
 }
 
@@ -25,6 +26,11 @@
   flex-direction: column;
   align-items: center;
   padding: 1.6rem 1rem;
+}
+
+.hero__content > img {
+  height: 14.27rem;
+  width: auto;
 }
 
 .hero__content > h1 {
@@ -69,6 +75,11 @@
     padding: 1.7rem 5rem;
   }
 
+  .hero__content img {
+    height: 26rem;
+    width: auto;
+  }
+
   .hero__content > h1 {
     font-size: 2rem;
     margin-top: 2.11rem;
@@ -95,6 +106,11 @@
   .hero__content {
     padding: 3.4rem 10rem;
   }
+
+  .hero__content > img {
+    height: 32.43rem;
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -104,6 +120,11 @@
 
   .hero__content {
     padding: 3.4rem 15rem;
+  }
+
+  .hero_content > img {
+    height: 33.375rem;
+    width: auto;
   }
 
   .hero__content > h1 {
