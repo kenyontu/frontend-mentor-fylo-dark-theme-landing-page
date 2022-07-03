@@ -1,0 +1,43 @@
+.features-section {
+  margin-top: 5rem;
+  padding: 1rem 0;
+  display: grid;
+}
+
+.features-section > * + * {
+  margin-top: 4.55rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .features-section {
+    margin-top: 5rem;
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .features-section > * + * {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .features-section {
+    margin-top: 5rem;
+    padding: 1rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .features-section {
+    margin-top: 5rem;
+    padding: 1.45rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.3rem;
+    column-gap: 3.7rem;
+  }
+}

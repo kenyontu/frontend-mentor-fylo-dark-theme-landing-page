@@ -1,0 +1,3 @@
+.container {
+  min-width: var(--sz-min-page-width);
+}

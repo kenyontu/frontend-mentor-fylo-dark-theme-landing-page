@@ -1,0 +1,162 @@
+.get-access-section {
+  margin-top: 8.25rem;
+  background: linear-gradient(
+    var(--clr-dark-blue-700) 50%,
+    var(--clr-dark-blue-800) 0%
+  );
+}
+
+.get-access-section form {
+  display: grid;
+  grid-template-areas:
+    'title'
+    'message'
+    'email'
+    'submit';
+  flex-direction: column;
+  background-color: var(--clr-dark-blue-600);
+  border-radius: 9px;
+  padding: 2.5rem 2rem 2.3rem;
+  box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.get-access-section h2 {
+  grid-area: title;
+  font-size: 1.125rem;
+}
+
+.get-access-section p {
+  grid-area: message;
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+.get-access-section__email {
+  grid-area: email;
+  position: relative;
+}
+
+.get-access-section__email > input {
+  width: 100%;
+  margin-top: 2.05rem;
+  background-color: var(--clr-white);
+  border: none;
+  padding: 1.125rem 2rem;
+  border-radius: 3rem;
+  font-size: 0.7rem;
+}
+
+.get-access-section__email > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  padding-left: 2rem;
+  font-size: 0.8rem;
+  visibility: hidden;
+}
+
+.get-access-section__email > span.error {
+  color: red;
+  visibility: visible;
+}
+
+.get-access-section__email > span.info {
+  color: white;
+  visibility: visible;
+}
+
+.get-access-section button {
+  grid-area: submit;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .get-access-section form {
+    width: 600px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+      'title title'
+      'message message'
+      'email submit';
+    padding: 2.8rem 2rem 2.3rem;
+  }
+
+  .get-access-section h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .get-access-section p {
+    padding: 0 3rem;
+  }
+
+  .get-access-section input {
+    padding: 1rem 2.2rem;
+    font-size: 0.8rem;
+  }
+
+  .get-access-section button {
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .get-access-section input,
+  .get-access-section button {
+    margin-top: 1.8rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .get-access-section {
+    margin-top: 10.5rem;
+    background: linear-gradient(
+      var(--clr-dark-blue-700) 57.5%,
+      var(--clr-dark-blue-800) 0%
+    );
+  }
+
+  .get-access-section form {
+    width: 864px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      'title title'
+      'message message'
+      'email submit';
+    padding: 3rem 4.7rem 2.55rem;
+  }
+
+  .get-access-section h2 {
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+  }
+
+  .get-access-section p {
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    letter-spacing: 0.2px;
+  }
+
+  .get-access-section input {
+    margin-top: 0;
+    background-color: var(--clr-white);
+    border: none;
+    padding: 1rem 2.2rem;
+    border-radius: 3rem;
+    font-size: 0.8rem;
+  }
+
+  .get-access-section button {
+    margin-top: 0;
+    margin-left: 2.3rem;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .get-access-section input,
+  .get-access-section button {
+    margin-top: 2.35rem;
+  }
+}
